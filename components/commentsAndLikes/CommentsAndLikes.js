@@ -2,7 +2,7 @@ import React from 'react'
 
 const CommentsAndLikes = ({numLikes, numComments}) => {
   return (
-    <div className='flex justify-between items-center text-sm text-gray-200 p-2'>
+    <div className='flex justify-between items-center text-sm text-gray-200 px-2'>
 
         <div className='flex items-center gap-2 '>
 
@@ -20,11 +20,11 @@ const CommentsAndLikes = ({numLikes, numComments}) => {
 
         </div>
 
-            <p className="opacity-70">{numLikes}</p>
+            <p className="opacity-70 text-xs">{numLikes}</p>
         </div>
 
         <div>
-            <p className="opacity-70">{numComments} comentarios</p>
+            <p className="opacity-70 text-xs">{numComments === '0' ? '' : `${numComments} comentarios`} </p>
         </div>
 
     </div>
