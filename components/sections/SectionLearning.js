@@ -2,7 +2,7 @@ import React from 'react'
 import ContainerCards from '../containers/ContainerCards'
 import ContainerContentsCard from '../containers/ContainerContentsCard'
 import Image from 'next/image'
-import icon_linkedin from '../../docs/icono_linkedin.png'
+import icon_linkedin from '../../public/icono_linkedin.png'
 import CardLearning from '../cards/CardLearning'
 import ButtonSeeMore from '../buttons/ButtonSeeMore'
 

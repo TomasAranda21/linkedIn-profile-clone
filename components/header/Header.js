@@ -1,5 +1,5 @@
 import React from 'react'
-import icon_linkedin from '../../docs/icono_linkedin.png'
+import icon_linkedin from '../../public/icono_linkedin.png'
 import Image from 'next/image'
 
 import icons from '../icons/icons'

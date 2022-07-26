@@ -1,7 +1,7 @@
 import React from 'react'
 import icons from '../icons/icons'
 import Image from 'next/image'
-import logo_linkedin from '../../docs/logo_linkedin.png'
+import logo_linkedin from '../../public/logo_linkedin.png'
 
 
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import hiring_img from '../../docs/hiring_img.png'
+import hiring_img from '../../public/hiring_img.png'
 import ContainerCards from '../containers/ContainerCards'
 import Image from 'next/image'
 
