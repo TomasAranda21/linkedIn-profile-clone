@@ -2,7 +2,7 @@ import React from 'react'
 import TitleSection from '../titles/TitleSection'
 import ContainerCards from '../containers/ContainerCards'
 import ContainerContentsCard from '../containers/ContainerContentsCard'
-import CardDestacados from '../cards/CardDestacados'
+import CardFeatured from '../cards/CardFeatured'
 
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -83,7 +83,7 @@ const SectionFeatured = () => {
             {
               featured.map(feat => (
                 <div key={feat.id}>
-                  <CardDestacados type={feat.type}
+                  <CardFeatured type={feat.type}
                   text2={feat.text2}
                   text={feat.text}
                   img={feat.img}
