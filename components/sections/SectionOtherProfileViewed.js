@@ -6,6 +6,7 @@ import ContainerCards from '../containers/ContainerCards'
 import ContainerContentsCard from '../containers/ContainerContentsCard'
 import TitleSection from '../titles/TitleSection'
 import ButtonSeeMore from '../buttons/ButtonSeeMore'
+import { users } from '../objJson/ObjJson'
 
 const SectionOtherProfileViewed = () => {
   return (
@@ -13,19 +14,26 @@ const SectionOtherProfileViewed = () => {
     <ContainerCards>
         <ContainerContentsCard>
 
+            <h2 className="font-semibold">Otros perfiles vistos</h2>
 
-                <TitleSection text="Otros perfiles vistos"/>
+            
+            <div className="flex flex-col gap-3 pt-5">
 
-                
-                <div className="flex flex-col gap-5 pt-5">
+              {users.map(user => (
+                <div key={user.id}>
+                  <CardProfileViewed
+                  name={user.name}
+                  description={user.description}
+                  img={user.img}
+                  type={user.type}
 
-                    <CardProfileViewed/>
-                    <CardProfileViewed/>
-                    <CardProfileViewed/>
-                    <CardProfileViewed/>
-                    <CardProfileViewed/>
+                  />
 
                 </div>
+
+              ))}
+                
+            </div>
 
 
 

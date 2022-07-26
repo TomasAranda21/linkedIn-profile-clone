@@ -1,25 +1,50 @@
 import React from 'react'
 import Button from '../buttons/Button'
+import icons from '../icons/icons'
 
-const CardProfileViewed = () => {
+const CardProfileViewed = ({name, description, img, type}) => {
   return (
 
-    <div class="flex gap-3">
+    <div className="flex gap-3">
         <div>
-            <div className="w-13 h-13 overflow-hidden rounded-full relative">
+            <div className="w-11 h-11 overflow-hidden rounded-full relative">
                 <img className=" object-cover absolute" 
-                src="https://media-exp1.licdn.com/dms/image/C5603AQEYKI84LcolHA/profile-displayphoto-shrink_100_100/0/1648607977332?e=1664409600&v=beta&t=CGzRbEY8UU5xC7AUDhLzRwslL7eQPZ53v1u11nls7d8" />
+                src={img} />
 
             </div>
         </div>
 
-        <div className="text-gray-200 text-opacity-70 text-xs">
-            <p className="mb-1">Gabriel Jalil • +3er</p>
-            <p>Estudiante en Henry | Full Stack Developer| React | Redux | Javascript | CSS | HTML5 ...</p>
+        <div className="text-gray-200 text-opacity-70 text-xs flex sm:flex-col sm:items-start items-center gap-2 sm:gap-1  sm:w-full">
+            <div>
+                <p className="mb-1 text-gray-200 text-opacity-100 font-medium text-sm">{name}</p>
+                <p className="">{description}</p>
+            </div>
 
         <div className="text-gray-200 mt-2 text-sm">
-            <Button text="Conectar"/>
 
+            {type ? 
+
+
+            <>
+            <div className="hidden sm:block">
+                <Button text="Mensaje"/> 
+            </div>
+                <p className="text-gray-200 mt-2 text-sm block sm:hidden border rounded-full p-2">{icons.paperPlaneIcon}</p>
+            </>
+            
+            : 
+            
+            <>
+            <div className="hidden sm:block">
+                <Button text="Conectar"/> 
+            </div>
+            <p className="text-gray-200 mt-2 text-sm block sm:hidden border rounded-full p-2">{icons.addUserIcon}</p>
+
+            </>
+            
+            
+            }
+            
         </div>
 
         </div>
