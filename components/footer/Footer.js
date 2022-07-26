@@ -8,7 +8,7 @@ import logo_linkedin from '../../docs/logo_linkedin.png'
 const Footer = () => {
 
   return (
-    <footer className="text-gray-200 text-opacity-80 text-xs w-3/5 mx-auto py-10 hidden md:visible">
+    <footer className="text-gray-200 text-opacity-80 text-xs w-full p-10 2xl:w-3/5 xl:w-11/12 mx-auto py-10 hidden md:block">
             <Image
                 src={logo_linkedin}
                 alt="Picture of the author"
