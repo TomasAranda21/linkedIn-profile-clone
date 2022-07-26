@@ -10,7 +10,7 @@ import { activity } from '../objJson/ObjJson'
 import TitleSection from '../titles/TitleSection'
 import ContainerViewMore from '../containers/ContainerViewMore'
 
-const SectionActividad = () => {
+const SectionActivity = () => {
   return (
     <ContainerViewMore textSeeMore="Mostrar toda la actividad">
 
@@ -52,4 +52,4 @@ const SectionActividad = () => {
   )
 }
 
-export default SectionActividad
+export default SectionActivity
