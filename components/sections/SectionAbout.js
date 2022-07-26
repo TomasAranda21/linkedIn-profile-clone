@@ -8,7 +8,7 @@ const SectionAbout = () => {
   return (
     <ContainerCards>
     <ContainerContentsCard>
-        <TitleSection text='Actividad'/>
+        <TitleSection text='Acerca de'/>
 
         <div className="mt-3 text-sm">
             <p className='text-gray-200 text-opacity-95'>👋 Hola, me llamo Tomás Aranda soy desarrollador Front-End y cuento con experiencia como Freelance en tecnologías Full-Stack MERN (MongoDB Express React NodeJS).</p>
@@ -22,8 +22,6 @@ const SectionAbout = () => {
 
 
         </div>
-
-
     </ContainerContentsCard>
 </ContainerCards>
   )
