@@ -12,6 +12,7 @@ module.exports = {
 
         blueTheme: "#70b5f9",
         lightBlue: "#a8d4ff",
+        lighGray: "#293138",
         darkBlue: "#38434f",
         brown: "#474139"
 
@@ -22,6 +23,8 @@ module.exports = {
         '15': '61px',
         '128': '32rem',
         '144': '36rem',
+        '61': "61%",
+        '86': "85%"
       }
     },
   },
