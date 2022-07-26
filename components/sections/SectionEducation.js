@@ -1,11 +1,4 @@
 import React from 'react'
-
-import TitleSection from '../titles/TitleSection'
-import ContainerCards from '../containers/ContainerCards'
-import ContainerContentsCard from '../containers/ContainerContentsCard'
-import CardDestacados from '../cards/CardDestacados'
-import ButtonSeeMore from '../buttons/ButtonSeeMore'
-import icons from '../icons/icons'
 import ContainerViewMore from '../containers/ContainerViewMore'
 import CardEducation from '../cards/CardEducation'
 import { education } from '../objJson/ObjJson'

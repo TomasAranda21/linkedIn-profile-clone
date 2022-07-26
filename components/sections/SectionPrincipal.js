@@ -10,8 +10,8 @@ const CardPrincipal = () => {
 
         <div className="relative">
 
-            <div className="h-48 relative">
-                <img className="rounded-lg rounded-b-none object-cover h-48 absolute"
+            <div className="h-48 relative w-full">
+                <img className="rounded-lg rounded-b-none object-cover h-48 w-full absolute" 
                 src="https://media-exp1.licdn.com/dms/image/C4E16AQFuTmU5nLuiPQ/profile-displaybackgroundimage-shrink_200_800/0/1646075584267?e=1664409600&v=beta&t=OIOFbGG1ciT6UzbtXaPpUYBmq2Wl3995b-Gvozg0pnQ"/>
             </div>
             
@@ -36,14 +36,22 @@ const CardPrincipal = () => {
 
                 </div>
 
-                <div className="flex item-center gap-3 mt-3">
-                    <Button text="+ Seguir" type={true}/>
-                    <Button text="Enviar mensaje" />
-                    <Button text="Más"/>
+                <div className="flex items-center gap-3 mt-3">
+                    <Button text="Seguir" className="md:w-auto justify-center w-full" icon={icons.plusIcon} type={true}/>
+                    <Button  className="md:w-auto justify-center w-full" text="Enviar mensaje" />
+
+                    <div className="hidden sm:block">
+                        <Button text="Más"/>
+
+                    </div>
+
+                    <div className="block rounded-full border p-2 sm:hidden">
+                        <p>{icons.dotsIcon}</p>
+                    </div>
 
                 </div>
 
-                <div className="p-3 mt-4 bg-brown w-1/2 rounded-lg text-sm">
+                <div className="p-3 mt-4 bg-brown sm:w-1/2 rounded-lg text-sm">
                     <p className="font-medium"> Busco empleo</p>
                     <p>Cargos de Desarrollador de front-end</p>
                     <p className="text-blueTheme">See all details</p>
