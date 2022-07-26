@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import SectionPrincipal from '../components/sections/SectionPrincipal'
-import SectionDestacado from '../components/sections/SectionDestacado'
+import SectionFeatured from '../components/sections/SectionFeatured'
 import Header from '../components/header/Header'
-import SectionActividad from '../components/sections/SectionActividad'
+import SectionActivity from '../components/sections/SectionActivity'
 import SectionAbout from '../components/sections/SectionAbout'
 import SectionExperience from '../components/sections/SectionExperience'
 import SectionOtherProfileViewed from '../components/sections/SectionOtherProfileViewed'
@@ -33,8 +33,8 @@ export default function Home() {
 
                 <div className='col-span-2'>
                   <SectionPrincipal/>
-                  <SectionDestacado/>
-                  <SectionActividad/>
+                  <SectionFeatured/>
+                  <SectionActivity/>
                   <SectionAbout/>
                   <SectionExperience/>
 
