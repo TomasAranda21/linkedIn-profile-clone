@@ -17,7 +17,7 @@ const SectionInterests = () => {
                 <div className="flex gap-2 items-center">
                     <div className=" w-15 h-15">
                         <img width={61}
-                        src="https://media-exp1.licdn.com/dms/image/C4E0BAQF8o7DdhAem3g/company-logo_100_100/0/1651242349165?e=1666828800&v=beta&t=cXH9r4_EZfjefSHgDTDvWY8qOI3ZAsmSLhHx_DuZqpo" />
+                        src="https://res.cloudinary.com/dj1pp4ivb/image/upload/v1658790907/linkedin/1651242349165_vhiaht.jpg" />
                     </div>
 
                     <div className="">
@@ -31,7 +31,7 @@ const SectionInterests = () => {
                 <div className="flex gap-2 items-center">
                     <div className=" w-15 h-15">
                         <img width={61}
-                        src="https://media-exp1.licdn.com/dms/image/C4D0BAQGSIIQBk3VIOQ/company-logo_100_100/0/1542331300310?e=1666828800&v=beta&t=EXabRatz85FVWDo3I6BXTu4PgWPsFqUO54GOC2a9oH4" />
+                        src="https://res.cloudinary.com/dj1pp4ivb/image/upload/v1658790907/linkedin/1542331300310_xlmzcl.jpg" />
                     </div>
 
                     <div className="">
