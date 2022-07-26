@@ -17,53 +17,54 @@ import CardChat from '../components/cards/CardChat'
 import SectionPeopleCouldMeet from '../components/sections/SectionPeopleCouldMeet'
 import SectionLearning from '../components/sections/SectionLearning'
 import HeaderMovile from '../components/header/HeaderMovile'
+import ContainerMain from '../components/containers/ContainerMain'
 
 export default function Home() {
  
       return (
 
-        <>
-          <Header/>
-          <HeaderMovile/>
-          <div className='bg-black pt-5 '>
-            <main className='2xl:w-3/5   lg:w-full p-0 lg:p-2 xl:w-5/6 md:w-11/12 mx-auto text-gray-200 mt-6 md:mt-10 lg:mt-14'>
+        <ContainerMain>
+            <Header/>
+            <HeaderMovile/>
+            <div className='bg-black pt-5 '>
+              <main className='2xl:w-3/5   lg:w-full p-0 lg:p-2 xl:w-5/6 md:w-11/12 mx-auto text-gray-200 mt-6 md:mt-10 lg:mt-14'>
 
-              
-              <div className='flex lg:gap-6 lg:flex-row flex-col lg:justify-center'>
-
-                <div className='col-span-2'>
-                  <SectionPrincipal/>
-                  <SectionFeatured/>
-                  <SectionActivity/>
-                  <SectionAbout/>
-                  <SectionExperience/>
-
-                  <SectionEducation/>
-                  <SectionSkills/>
-                  <SectionProyects/>
-                  <SectionInterests/>
-                </div>
-
-                <div className=' ' >
-                  <div className=''>
-                    <SectionHiringOnLinkedin/>
-                    <SectionOtherProfileViewed/>
-
-                  </div>
-                  <SectionPeopleCouldMeet/>
-                  <SectionLearning/>
-                </div>
                 
-              </div>
+                <div className='flex lg:gap-6 lg:flex-row flex-col lg:justify-center'>
 
-            </main>
+                  <div className='col-span-2'>
+                    <SectionPrincipal/>
+                    <SectionFeatured/>
+                    <SectionActivity/>
+                    <SectionAbout/>
+                    <SectionExperience/>
+
+                    <SectionEducation/>
+                    <SectionSkills/>
+                    <SectionProyects/>
+                    <SectionInterests/>
+                  </div>
+
+                  <div className=' ' >
+                    <div className=''>
+                      <SectionHiringOnLinkedin/>
+                      <SectionOtherProfileViewed/>
+
+                    </div>
+                    <SectionPeopleCouldMeet/>
+                    <SectionLearning/>
+                  </div>
+                  
+                </div>
+
+              </main>
 
 
-            <Footer/>
-          </div>
+              <Footer/>
+            </div>
 
-          <CardChat/>
+            <CardChat/>
+        </ContainerMain>
         
-        </>
       )
 }
