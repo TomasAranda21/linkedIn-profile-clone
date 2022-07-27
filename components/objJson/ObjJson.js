@@ -5,7 +5,7 @@ const featured = [
         text: "",
         text2: "Curriculum Vitae",
         type: "Documento",
-        img: "https://res.cloudinary.com/dj1pp4ivb/image/upload/v1658788760/linkedin/1658604958951_sorrux.jpg",
+        img: "https://res.cloudinary.com/dj1pp4ivb/image/upload/v1658951871/1658897222149_gqqsan.jpg",
         comments: "",
         likes:"",
     },
