@@ -75,7 +75,7 @@ const SectionFeatured = () => {
     <ContainerCards>
         <ContainerContentsCard>
 
-            <TitleSection text='Detacado'/>
+            <TitleSection text='Destacado'/>
 
           <div className='mt-3'>
           <Slider {...settings}>
