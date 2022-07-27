@@ -11,13 +11,13 @@ import { users } from '../objJson/ObjJson'
 const SectionOtherProfileViewed = () => {
   return (
 
-    <ContainerCards>
+    <ContainerCards bgBlue={true}>
         <ContainerContentsCard>
 
             <h2 className="font-semibold">Otros perfiles vistos</h2>
 
             
-            <div className="flex flex-col gap-3 pt-5">
+            <div className="flex flex-col gap-8 lg:gap-3 pt-5">
 
               {users.map(user => (
                 <div key={user.id}>
