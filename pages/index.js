@@ -27,7 +27,7 @@ export default function Home() {
             <Header/>
             <HeaderMovile/>
             <div className='bg-black pt-5 '>
-              <main className='2xl:w-3/5   lg:w-full p-0 lg:p-2 xl:w-5/6 md:w-11/12 mx-auto text-gray-200 mt-6 md:mt-10 lg:mt-14'>
+              <main className='2xl:w-3/5   lg:w-full p-0 lg:p-2 xl:w-5/6 md:w-11/12 mx-auto text-gray-200 mt-6 md:mt-10 lg:mt-12'>
 
                 
                 <div className='flex lg:gap-6 lg:flex-row flex-col lg:justify-center'>
