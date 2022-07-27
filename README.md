@@ -9,7 +9,7 @@ Hello👋 I want to present you a website that I made with NextJS and tailwind, 
 
  `Next JS`
  `Tailwind`
- `React Icos`
+ `React Icons`
 
 
 
