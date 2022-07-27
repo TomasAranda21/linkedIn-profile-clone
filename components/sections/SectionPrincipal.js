@@ -11,12 +11,12 @@ const CardPrincipal = () => {
         <div className="relative">
 
             <div className="h-48 relative w-full">
-                <img className="rounded-lg rounded-b-none object-cover h-48 w-full absolute" 
+                <img className="rounded-lg rounded-b-none object-cover h-36 md:h-48 w-full absolute" 
                 src="https://media-exp1.licdn.com/dms/image/C4E16AQFuTmU5nLuiPQ/profile-displaybackgroundimage-shrink_200_800/0/1646075584267?e=1664409600&v=beta&t=OIOFbGG1ciT6UzbtXaPpUYBmq2Wl3995b-Gvozg0pnQ"/>
             </div>
             
 
-            <div className=" absolute top-24 left-8">
+            <div className=" absolute top-16 md:top-24 left-8">
                 <div className="w-36 h-36 overflow-hidden relative rounded-full">
                     <img className=" object-cover w-36 h-36 overflow-hidden absolute"
                     src="https://media-exp1.licdn.com/dms/image/D4D35AQHKZJbaTDjZPQ/profile-framedphoto-shrink_200_200/0/1658599733549?e=1659294000&v=beta&t=yaO8mGvGixwSAq1_Q0OF8cikRFs-wiEd3qYv4jfpzms"/>
@@ -25,7 +25,7 @@ const CardPrincipal = () => {
         </div>
 
         <ContainerContentsCard>
-            <div className="pt-8">
+            <div className="md:pt-8">
                 <div>
                     <h2 className="text-2xl font-semibold">Tomás Aranda</h2>
                     <p>Front-End Developer | React | JavaScript | CSS | Tailwind.</p>
@@ -37,8 +37,8 @@ const CardPrincipal = () => {
                 </div>
 
                 <div className="flex items-center gap-3 mt-3">
-                    <Button text="Seguir" className="md:w-auto justify-center w-full" icon={icons.plusIcon} type={true}/>
-                    <Button  className="md:w-auto justify-center w-full" text="Enviar mensaje" />
+                    <Button text="Seguir" className="md:w-auto justify-center w-full px-1 md:px-4" icon={icons.plusIcon} type={true}/>
+                    <Button  className="md:w-auto justify-center w-full px-2 md:px-4" text="Enviar mensaje" />
 
                     <div className="hidden sm:block">
                         <Button text="Más"/>
@@ -51,7 +51,7 @@ const CardPrincipal = () => {
 
                 </div>
 
-                <div className="p-3 mt-4 bg-brown sm:w-1/2 rounded-lg text-sm">
+                <div className="p-3 mt-4 md:bg-brown bg-gray-700 sm:w-1/2 rounded-lg text-sm">
                     <p className="font-medium"> Busco empleo</p>
                     <p>Cargos de Desarrollador de front-end</p>
                     <p className="text-blueTheme">See all details</p>
