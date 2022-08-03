@@ -3,6 +3,7 @@ import Button from '../buttons/Button'
 import icons from '../icons/icons'
 import ContainerCards from '../containers/ContainerCards'
 import ContainerContentsCard from '../containers/ContainerContentsCard'
+import Image from 'next/image'
 const CardPrincipal = () => {
   return (
 
@@ -18,8 +19,8 @@ const CardPrincipal = () => {
 
             <div className=" absolute top-16 md:top-24 left-8">
                 <div className="w-36 h-36 overflow-hidden relative rounded-full">
-                    <img className=" object-cover w-36 h-36 overflow-hidden absolute"
-                    src="https://media-exp1.licdn.com/dms/image/D4D35AQHKZJbaTDjZPQ/profile-framedphoto-shrink_200_200/0/1658599733549?e=1659294000&v=beta&t=yaO8mGvGixwSAq1_Q0OF8cikRFs-wiEd3qYv4jfpzms"/>
+                    <Image width = "144px" height = "144px" className=" object-cover w-36 h-36 overflow-hidden absolute"
+                    src="/perfil.png" />
                 </div>
             </div>
         </div>

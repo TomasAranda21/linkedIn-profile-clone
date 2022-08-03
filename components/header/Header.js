@@ -34,8 +34,8 @@ const Header = () => {
 
                 <div className="flex flex-col items-center text-opacity-80 text-gray-100 hover:text-opacity-100 hover:text-white cursor-pointer duration-200">
                     <div className="w-6 h-6 overflow-hidden rounded-full">
-                        <img width
-                        src="https://res.cloudinary.com/dj1pp4ivb/image/upload/v1658791690/linkedin/1658599733549_1_atdttl.jpg" />
+                        <Image width = "24px" height = "24px"
+                        src="/perfil.png" />
                     </div>
 
                     <div className="flex items-center">
