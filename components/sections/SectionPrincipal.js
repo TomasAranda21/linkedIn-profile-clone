@@ -3,19 +3,18 @@ import Button from '../buttons/Button'
 import icons from '../icons/icons'
 import ContainerCards from '../containers/ContainerCards'
 import ContainerContentsCard from '../containers/ContainerContentsCard'
+import postImage from '../../public/postImage.jpeg'
 import Image from 'next/image'
+
+
 const CardPrincipal = () => {
   return (
-
     <ContainerCards>
-
         <div className="relative">
-
             <div className="h-48 relative w-full">
-                <img className="rounded-lg rounded-b-none object-cover h-36 md:h-48 w-full absolute" 
-                src="https://media-exp1.licdn.com/dms/image/C4E16AQFuTmU5nLuiPQ/profile-displaybackgroundimage-shrink_200_800/0/1646075584267?e=1664409600&v=beta&t=OIOFbGG1ciT6UzbtXaPpUYBmq2Wl3995b-Gvozg0pnQ"/>
+                <img className="rounded-lg rounded-b-none h-36 md:h-48 w-full absolute"  
+                src={'/postImage.jpeg'}/>
             </div>
-            
 
             <div className=" absolute top-16 md:top-24 left-8">
                 <div className="w-36 h-36 overflow-hidden relative rounded-full">
